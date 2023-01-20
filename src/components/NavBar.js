@@ -5,9 +5,10 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/leetcode2.svg";
 import navIcon3 from "../assets/img/git.svg";
 import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
-} from "react-router-dom" ;
+} from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -92,6 +93,6 @@ export const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </Router>
+    
   );
 };
